@@ -11,11 +11,11 @@ public enum Day {
 
     private String day;
 
-    public String getValue(int index){
+    public String getValue(int index) {
         return day;
     }
 
-    Day(String day){
-        this.day=day;
+    Day(String day) {
+        this.day = day;
     }
 }
